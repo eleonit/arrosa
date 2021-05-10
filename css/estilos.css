@@ -1,0 +1,244 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.margin-interno{
+  padding: 0 80px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  background: #fff;
+}
+.contenedor{
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.header{
+  background: url(../img/pizza-header.jpg);
+  background-position: center;
+  background-attachment: contain;
+  background-size: cover;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.header .tab{
+  background: rgba(0, 0, 0, 0.1);
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  height: 60px;
+  align-items: center;
+  border-bottom: 2px solid rgba(237, 50, 55, 0.3);
+}
+
+.header .tab .logo{
+    margin-top: -10px;
+}
+
+.header .tab .navbar {
+    color: #fff;
+    grid-column: 3 / 7;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header .tab .navbar li{
+    list-style: none;
+}
+
+.header .tab .navbar a:hover{
+    color: #ed3237;
+}
+
+.header .tab .navbar a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.header .tab .menu-bar{
+    display: none;
+}
+
+.header .tab .social {
+    color:#fff;
+    grid-column: 8 / 9;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header .tab .social li{
+    list-style: none;
+}
+
+.header .tab .social a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.header .tab .social a:hover{
+    color: #ed3237;
+}
+
+header .contenedor-textos-header{
+  margin: 200px 0;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+header .contenedor-textos-header .linea{
+  width: 400px;
+  margin: auto;
+  height: 3px;
+  background: #ed3237;
+  /* margin-top: 20px;  <---prueba */
+}
+
+header .contenedor-textos-header .subtitulo-header {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 30px;
+  color: #fff;
+  font-weight: 300px;
+  /* margin-top: 20px; */
+}
+
+header .contenedor-textos-header .pedido {
+  display: inline-block;
+  padding: 15px 15px;
+  border: 3px solid #ed3237;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 30px;
+  margin-top: 20px;
+}
+
+header .contenedor-textos-header .pedido:hover {
+  text-decoration: #fff;
+  background: #ed3237;
+}
+
+main .acerca {
+  background: dimgray;
+  padding: 35px 0;
+  text-align: center;
+}
+
+main .acerca .contenedor .contenedor-acerca .titulo-acerca {
+  font-size: 23px;
+  font-weight: 800px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 20px;
+}
+
+main .acerca .contenedor .contenedor-acerca .parrafo-acerca {
+  color: #999;
+  font-weight: 600px;
+  margin-bottom: 20px;
+}
+
+main .icons {
+  padding: 10px 20px;
+}
+
+main .icons .contenedor-iconos {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+main .icons .contenedor-iconos .iconos1 {
+  width: 33%;
+  margin: 20px;
+}
+
+main .icons .contenedor-iconos .iconos2 {
+  width: 33%;
+  margin: 20px;
+}
+
+main .icons .contenedor-iconos .iconos3 {
+    width: 33%;
+    margin: 20px;
+  }
+
+main .icons .contenedor-iconos .iconos4 {
+    width: 33%;
+    margin: 20px;
+}
+
+main .icons .contenedor-iconos .iconos h3 {
+  margin: 10px;
+  font-size: 23px;
+}
+
+main .icons .contenedor-iconos .iconos p {
+    margin-top: 20px;
+    font-size: 15px;
+  }
+
+main .menu {
+  background: #f0f3f5;
+  padding: 40px 0;
+}
+
+main .menu .contenedor .contenedor-textos-menu {
+  text-align: center;
+}
+
+main .menu .contenedor .contenedor-textos-menu .titulo-menu {
+  font-weight: 900;
+  font-size: 24px;
+  margin-bottom: 28px;
+}
+
+main .menu .contenedor .contenedor-textos-menu .parrafo-menu {
+  font-weight: normal;
+  color: #999;
+  margin-bottom: 40px;
+}
+
+main .menu .contenedor-menu-imagenes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+main .menu .contenedor-menu-imagenes img {
+  width: 32%;
+  margin: auto;
+  margin-bottom: 40px;
+  border-radius: 10px;
+}
+
+main .menu .contenedor-menu-imagenes img:hover {
+  opacity: 0.4;
+}
+
+.footer{
+    background: #000;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px; 
+}
+    .pie{
+        text-align: center;                       
+    }
+    .pie a{
+        color: #fff;
+        font-size: 11px;
+        text-transform: uppercase;
+        padding: 0 10px;
+        letter-spacing: 2px;
+    }

@@ -1,0 +1,22 @@
+@media all and (max-width: 600px) {
+}
+    .header .tab .nav {
+        position: relative;
+    }
+
+    .header .tab .nav .menu-bar{
+        display: block;
+        flex-direction: row-reverse;
+        font-size: 2em;
+        cursor: pointer;
+    }
+
+    
+/* @media all and (max-width: 650px) {
+}
+
+@media all and (max-width: 762px) {
+}
+
+@media all and (max-width: 1120px) {
+} */
