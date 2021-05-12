@@ -43,7 +43,7 @@ body {
 }
 
 .header .tab .logo{
-    margin-top: -10px;
+    margin-left: 2em;
 }
 
 .header .tab .navbar {
@@ -51,6 +51,7 @@ body {
     grid-column: 3 / 7;
     display: flex;
     justify-content: space-around;
+    font-size: 18px;
 }
 
 .header .tab .navbar li{
@@ -75,6 +76,7 @@ body {
     grid-column: 8 / 9;
     display: flex;
     justify-content: space-around;
+    font-size: 25px;
 }
 
 .header .tab .social li{
@@ -90,11 +92,13 @@ body {
     color: #ed3237;
 }
 
+
 header .contenedor-textos-header{
   margin: 200px 0;
   text-transform: uppercase;
   text-align: center;
 }
+
 
 header .contenedor-textos-header .linea{
   width: 400px;
@@ -118,6 +122,7 @@ header .contenedor-textos-header .pedido {
   padding: 15px 15px;
   border: 3px solid #ed3237;
   text-align: center;
+  font-size: 20px;
   color: #fff;
   text-decoration: none;
   border-radius: 30px;
@@ -130,62 +135,95 @@ header .contenedor-textos-header .pedido:hover {
 }
 
 main .acerca {
-  background: dimgray;
-  padding: 35px 0;
+  background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url(../img/pizza-3.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 25px 0;
   text-align: center;
+  
 }
 
 main .acerca .contenedor .contenedor-acerca .titulo-acerca {
-  font-size: 23px;
+  font-size: 30px;
   font-weight: 800px;
-  color: rgb(255, 255, 255);
+  color: #ed3237;
   margin-bottom: 20px;
+  text-transform: uppercase;
 }
 
 main .acerca .contenedor .contenedor-acerca .parrafo-acerca {
   color: #999;
-  font-weight: 600px;
+  font-size: 25px;
+  font-weight: 800px;
   margin-bottom: 20px;
 }
 
-main .icons {
-  padding: 10px 20px;
+.icons {
+  padding: 50px;
+  
+  /* margin: 20px; */
 }
 
-main .icons .contenedor-iconos {
+* .icons .contenedor-iconos {
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: no wrap;
   text-align: center;
+  justify-content: center;
+  /* background-color: lawngreen; */
+  align-content: stretch;
+  line-height: 25px;
+  width: 100%;
+  padding: 10px;
+  /* border: 2px solid navy; */
+  width: 100%;
+  height: 200px;
 }
 
-main .icons .contenedor-iconos .iconos1 {
-  width: 33%;
-  margin: 20px;
+.icons .contenedor-iconos .iconos1{
+  text-align: center;
+  /* background-color: lawngreen; */
+  padding: 10px;
+  /* border: 2px solid navy; */
 }
 
-main .icons .contenedor-iconos .iconos2 {
-  width: 33%;
-  margin: 20px;
+.icons .contenedor-iconos .iconos1 i{
+  font-size: 4em;
+  color: #ed3237;
+  
 }
 
-main .icons .contenedor-iconos .iconos3 {
-    width: 33%;
-    margin: 20px;
-  }
+.icons .contenedor-iconos .iconos2 i{
+  font-size: 4em;
+  color: #ed3237;
+  
+}
 
-main .icons .contenedor-iconos .iconos4 {
-    width: 33%;
-    margin: 20px;
+.icons .contenedor-iconos .iconos3 i{
+  font-size: 4em;
+  color: #ed3237;
+  
+}
+
+main .icons .contenedor-iconos .iconos4 i{
+  font-size: 4em;
+  color: #ed3237;
 }
 
 main .icons .contenedor-iconos .iconos h3 {
-  margin: 10px;
-  font-size: 23px;
+  font-size: 4em;
+  color: #ed3237;
 }
 
 main .icons .contenedor-iconos .iconos p {
     margin-top: 20px;
-    font-size: 15px;
+    font-size: 25px;
+    justify-content: space-between;
   }
 
 main .menu {

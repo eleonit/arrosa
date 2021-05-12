@@ -1,15 +1,166 @@
-@media all and (max-width: 600px) {
-}
-    .header .tab .nav {
-        position: relative;
+@media all and (max-width: 376px) {
+
+    .header .tab .logo{
+        grid-column: 4 / 5;
     }
 
-    .header .tab .nav .menu-bar{
-        display: block;
-        flex-direction: row-reverse;
+    .header .tab .social {
+        display: none;
+    }
+
+    .header .tab .menu-bar {
+        display:block;
+        color: #fff;
+        grid-column: 8 / 9;
         font-size: 2em;
         cursor: pointer;
     }
+
+    
+    .header .titulo-header {
+        display: none;
+    }
+
+    .header .linea {
+        display: none;
+    } 
+
+    .header .tab .navbar{
+        position: absolute;
+        display: inline-block;
+        border: 3px solid rgba(237, 50, 55, 0.3);
+        border-radius: 30px;
+        width: 50%;
+        height: 60vh;
+        display: grid;
+        align-items: center;
+        background: url(../img/pizza-2.jpg);
+        /* background-color: #000; */
+        margin-top: 60px;
+        transform: translateX(220%);
+        transition: all 1s;
+        cursor: pointer;
+
+        
+    }
+
+    .header .tab .navbar-toggle{
+        transform: translateX(110%);
+    }
+
+    header .contenedor-textos-header .pedido{
+        cursor: pointer;
+    }
+
+    main .acerca .contenedor .contenedor-acerca .titulo-acerca {
+        font-size: 23px;
+    }
+
+    main .acerca .contenedor .contenedor-acerca .parrafo-acerca {
+        font-size: 18px;
+    }
+
+
+    .icons .contenedor-iconos{
+        display: flex;
+        flex-direction: column;
+        height: 800px;
+    }
+
+    .icons .contenedor-iconos .iconos1{
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .icons .contenedor-iconos .iconos2{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .icons .contenedor-iconos .iconos3{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .icons .contenedor-iconos .iconos4{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+        
+    .icons .contenedor-iconos .iconos1 i{
+        font-size:3em;  
+    }
+      
+    .icons .contenedor-iconos .iconos2 i{
+        font-size: 3em;
+    }
+
+    .icons .contenedor-iconos .iconos3 i{
+        font-size: 3em;
+    }
+
+    main .icons .contenedor-iconos .iconos4 i{
+        font-size: 3em;
+    }
+
+    main .icons .contenedor-iconos .iconos1 h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    main .icons .contenedor-iconos .iconos2 h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    main .icons .contenedor-iconos .iconos3 h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    main .icons .contenedor-iconos .iconos4 h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    main .icons .contenedor-iconos .iconos1 p {
+        font-size: 15px;
+        justify-content:center;
+    }
+
+    main .icons .contenedor-iconos .iconos2 p {
+        font-size: 15px;
+        justify-content:center;
+    }
+
+    main .icons .contenedor-iconos .iconos3 p {
+        font-size: 15px;
+        justify-content:center;
+    }
+
+    main .icons .contenedor-iconos .iconos4 p {
+        font-size: 15px;
+        justify-content:center;
+    }
+
+    main .menu .contenedor-menu-imagenes {
+        display: flex;
+        flex-direction: column;
+      }
+
+    main .contenedor-menu-imagenes img{
+        background-size: cover;
+      }
+      
+
+
+
+}
+
+
+
+    
 
     
 /* @media all and (max-width: 650px) {
